@@ -4,18 +4,11 @@
     </head>
     <body>
         <h1 align="center"> Hotel Room Booking Form</h1>
-        <form action="#" method="post">
+        <form action="#" method="post" align="center">
 
         <label for="name">Full Name:</label>
         <input type="text" id="name" required>
-        <br>
-        <br>
-
-        <label for="gender">Gender:</label>
-        <input type="radio" id="female" name="gender" value="female">
-        <label for="gender">Female</label>
-        <input type="radio" id="male" name="gender" value="male">
-        <label for="gender">Male</label>
+        
         
         <br><br>
 
@@ -39,25 +32,26 @@
         <input type="date" id="checkout" required>
         <br><br>
         
-        <label for="roomtype">Room type</label>
+        <label for="roomtype">Room Type</label>
         <select id="room">
-            <option value="">Select a room type</option>
+            <option value="">Single Room</option>
             <option value="Single">Single Room</option>
             <option value="double">Double Room</option>
             <option value="deluxe">Deluxe Room</option>
             <option value="suite">suit</option>
         </select>
         <br><br>
-        <label for="guests">Number of guests: </label>
+        <label for="guests">Number of Guests: </label>
         <input type="number" id="guest" min="1" max="10" value="0" required>
         <br><br>
 
-        <label for="specialrequest">Special request</label>
-        <textarea col="4" row="50" required></textarea>
+        <label for="specialrequest">Special Request:</label>
+        <br>
+        <textarea col="10" row="100" required align="center"></textarea>
         <br><br>
 
-        <input type="submit" value="Submit Now" required>
-        <input type="reset" value="Reset the form" required>
+        <input type="submit" value="Book Now" required>
+        <input type="reset" value="Reset Form" required>
 
         </form>
     </body>
